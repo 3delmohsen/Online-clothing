@@ -1,0 +1,32 @@
+.socia-lmedia a.fab.fa-youtube {
+    background-color: #bb0000;
+    margin-top: 100px;
+}
+.socia-lmedia a.fab.fa-facebook {
+    background-color: #3B5998;
+}
+.socia-lmedia a.fab.fa-instagram {
+    background-color: #125688;
+}
+.socia-lmedia a.fab.fa-twitter {
+    background-color: #55ACEE;
+}
+
+.socia-lmedia a {
+    
+    font-size: 30px;
+    color: white;
+    margin: 0px 0 7px 0;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.socia-lmedia a:hover {
+    border-radius: 10px;
+    background-color: #464040d4;
+}
+.socia-lmedia{
+    position: fixed;
+    
+
+}
