@@ -52,6 +52,7 @@ input[type=text], select , textarea {
     margin-bottom: 16px;
     background-color: white;
     color: black;
+    outline: none;
   }
   input[type=email]{
     width: 600px;
@@ -63,6 +64,7 @@ input[type=text], select , textarea {
     margin-bottom: 16px;
     background-color:white;
     color:black;
+    outline: none;
 
   }
 
@@ -98,7 +100,7 @@ input[type=text], select , textarea {
     background-color:white ;
   }
   .body2{
-    background-color:#c5c69f;
+    background-color:white;
   }
   .img{
     margin-top: 30px;
