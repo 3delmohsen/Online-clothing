@@ -219,8 +219,13 @@ input[type="search"]{
   margin-left: 150px;
   margin-top: 70px;
   display:inline-table;
+ 
+}
+.card img:hover{
+  transform: rotateY(180deg);
 }
 .card img{
+ transition: transform 1s;
  width: 100%;
  margin-bottom: 5px;
 }
