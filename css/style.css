@@ -1,123 +1,38 @@
 *{
-   margin: 0 ;
-   padding: 0 ;
-
+  margin: 0 ;
+  padding: 0 ;
+}
+/* start header */
+.header13{
+  width: 100%;
+  height:60px;
+  background-color:#0b3369;
+  position:absolute;
+  top: 0;
+  width: 100%;
+}
+.cunt ul li{
+  float: left;
+}
+.cunt ul li{
+  font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  list-style: none;
+  padding:10px 50px 11px 50px ;
+  color:white;
+  text-align: center;
+  font-size: 30px;
 }
 #home{
-    color:white;
+  color:white;
 }
-.header13{
-    width: 100%;
-    height:60px;
-    background-color:#0b3369;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.cunt ul li{
-   float: left;
-}
-
-.cunt ul li{
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    list-style: none;
-    padding:10px 50px 11px 50px ;
-    color:white;
-    text-align: center;
-    font-size: 30px;
-
+#home:hover{
+  color:#dae2ed;
 }
 .cunt ul a li:hover{
-    color:#dae2ed;
-    background-color:hsl(222, 66%, 50%);
+  color:#dae2ed;
+  background-color:hsl(222, 66%, 50%);
 }
-.logo p{
-    float: right;
-    position: fixed ;
-    right: 10px;
-    line-height:1.5;
-    font-size: 40px;
-    padding-right: 10px;
-    color:hsl(222, 66%, 50%);
-    font-family: "Brush Script MT", cursive;
-}
-.logo p{
-    color:#93b3cd ;
-}
-input[type=text],input[type=password], select , textarea {
-    width: 600px;
-    box-sizing: border-box;
-    padding: 12px;  
-    border: 1px solid #ccc;
-    border-radius: 4px; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    background-color: white;
-    color: black;
-    outline: none;
-  }
-  input[type=email]{
-    width: 600px;
-    box-sizing: border-box;
-    padding: 12px;  
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    background-color:white;
-    color:black;
-    outline: none;
-
-  }
-
-  input[type=submit] {
-    background-color: #4CAF50;
-    color:black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 260px ;
-  }
-  input[type=submit]:hover {
-    background-color: #45a049;
-    color: white;
-  }
-  
- .container {
-    max-width:600px;
-    border-radius: 5px;
-    padding: 20px;
-    margin-left: 50px ;
-    background-color:#15767b;
-    display: inline-block;
-    margin-bottom: 100px;
-  }
-  form label{
-    color: black;
-  }
-  #home:hover{
-    color:#dae2ed;
-  }
-  .body1{
-  background-image: url(../img/wep-site.jpg);
-  background-size: cover;
-  }
-  .body2{
-    background-color:white;
-  }
-  .img{
-    margin-top: 30px;
-    width:400px;
-    height:700px;
-    display: inline-block;
-    margin-left: 350px;
-    margin-bottom: -44px;
-    background-image: url(../img/man_cartoon.png);
-    background-size: 100%;
-  }
 input[type="search"]{
   border: none;
   border-radius: 6px;
@@ -140,12 +55,10 @@ input[type="search"]{
   float: left;
   margin-left: 20px;
   outline: none;
-
 }
 .btn:hover{
   background-color: #45a049;
   color: white;
-
 }
 .btn-2{
   background-color: #4CAF50;
@@ -161,41 +74,33 @@ input[type="search"]{
   outline: none;
 }
 .btn-2:hover{
-
   background-color:#93b3cd;
   color:black ;
+}
+.logo p{
+  float: right;
+  position: absolute ;
+  right: 10px;
+  line-height:1.5;
+  font-size: 40px;
+  padding-right: 10px;
+  color:hsl(222, 66%, 50%);
+  font-family: "Brush Script MT", cursive;
+}
+.logo p{
+  color:#93b3cd ;
+}
+/* end header */
 
-}
-.conect{
-  background-image: url(../img/aaa.jpg);
-  background-size: cover;
-  height: 500px;
-  background-size:100%;
-  background-repeat: no-repeat;
-  
-}
-.text-conect{
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  animation:text-conect 1s ease-in-out infinite alternate;
-}
-@-webkit-keyframes text-conect {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #704fbe, 0 0 40px #313eb1, 0 0 50px #2f0ea3, 0 0 60px #1c1ea5, 0 0 70px #050783;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #836bda, 0 0 40px #437fd8, 0 0 50px #2a37ac, 0 0 60px #2c29be, 0 0 70px #3223bb, 0 0 80px #4416c5;
-  }
-}
+
+/* start slider */
+
 .slider-home{
   margin-top: 10px;
   height:480px;
   background-image: url(../img/slider-shop.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-
 }
 .SALE{
   height: 20px;
@@ -210,6 +115,20 @@ input[type="search"]{
 .span2{
   margin-left: 100px;
 }
+.menu{
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20px;
+}
+/* end slider */
+
+
+/* start prodect card */
+.prodect{
+  margin-bottom: 100px;
+}
+
 .card{
   cursor:pointer;
   width: 300px;
@@ -218,17 +137,21 @@ input[type="search"]{
   border-radius: 20px;
   margin-left: 150px;
   margin-top: 70px;
-  display:inline-table;
- 
-}
-.card img:hover{
-  transform: rotateY(180deg);
+  display:inline-table; 
 }
 .card img{
- transition: transform 1s;
- width: 100%;
- margin-bottom: 5px;
+  transition: transform 1.0s;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+ }
+.card img:hover{
+
+  transform:rotatez(360deg);
+  border-radius:5px;
+
 }
+
 .price {
   color: grey;
   font-size: 22px;
@@ -237,7 +160,7 @@ input[type="search"]{
 .card button{
   padding: 12px;
   width: 100%;
-  color: white;
+  color: red;
   background-color: #000;
   font-size: 18px;
   text-align: center;
@@ -246,78 +169,110 @@ input[type="search"]{
   border-radius: 20px;
   outline:none;
   cursor: pointer;
-
 }
 .card button:hover {
   background-color:#00000094;
   color: white;
 }
-.contentt{
-  height: 750px;
-}
-.menu{
-  font-family: Impact,'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
-  font-size: 50px;
-  margin-left: 20px;
-}
-a button.boot{
-  background-color: #e6e6e6;
-  padding:10px;
-  width: 200px;
-  border-radius: 15px;
-  border: none;
-  font-weight: bold;
-  margin-bottom: 100px;
-}
-a button.boot:hover{
-  background-color: #000;
-  color: white;
+/* end prodect card */
 
-}
-.page{
- margin-right: 100px;
-  width: 30%; 
 
-  margin-left: 10px;
+/* start contact */
+.body2{
+  background-color:white;
+}
+.conect{
+  background-image: url(../img/aaa.jpg);
+  background-size: cover;
+  height: 500px;
+  background-size:100%;
+  background-repeat: no-repeat;
   
-  float: left;
 }
-.prodect{
-  margin-bottom: 100px;
+.img{
+  margin-top: 30px;
+  width:400px;
+  height:700px;
+  display: inline-block;
+  margin-left: 350px;
+  margin-bottom: -44px;
+  background-image: url(../img/man_cartoon.png);
+  background-size: 100%;
 }
-.bage-home{
-  color:white;
-  font-size: 20px;
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
+.text-conect{
+  font-size: 80px;
+  color: #fff;
   text-align: center;
+  animation:text-conect 1s ease-in-out infinite alternate;
 }
-.bage-home li{
-  padding:25px;
+ @-webkit-keyframes text-conect{
+  from 
+  {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #704fbe, 0 0 40px #313eb1, 0 0 50px #2f0ea3, 0 0 60px #1c1ea5, 0 0 70px #050783;
+  }  
+  to 
+  {
+    text-shadow: 0 0 20px #fff, 0 0 30px #836bda, 0 0 40px #437fd8, 0 0 50px #2a37ac, 0 0 60px #2c29be, 0 0 70px #3223bb, 0 0 80px #4416c5;
+  }
 }
-.bage-home li:hover{
+.container {
+  max-width:600px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 50px ;
+  background-color:#15767b;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+input[type=text],input[type=password], select , textarea {
+  width: 600px;
+  box-sizing: border-box;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  background-color: white;
+  color: black;
+  outline: none;
+}
+input[type=email]{
+  width: 600px;
+  box-sizing: border-box;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  background-color:white;
+  color:black;
+  outline: none;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 260px ;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
   color: white;
-  background-color: hsl(222, 66%, 50%);
 }
-.bot a {
-    margin-top: 20px;
-    color: black;
+form label{
+  color: black;
 }
 
-.bot {
-    margin-right: 100px;
-    font-size: 40px;
-    color: black;
-    border-radius: 5px;
-    float: left; 
-       
-}
-.footer{
-  background-color:#0b3369 ;
-  
-}
+/* end contact */
+
+
+/* start about */
+ .body1{
+  background-image: url(../img/wep-site.jpg);
+  background-size: cover;
+  }
 .info{
   height: 50px;
   text-align: center;
@@ -335,10 +290,66 @@ a button.boot:hover{
 .caaoo{
   font-size: 22px;
 }
+/* end about */
+
+
+/* start foter */
+.footer{
+  background-color:#0b3369 ;
+  
+}
 .adel{
   background-color: black;
   color:#898989;
   text-align: center;
   font-size: 20pt;
 }
-
+.page{
+  margin-right: 100px;
+  width: 30%;  
+  margin-left: 10px; 
+  float: left;
+}
+.bage-home{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.bage-home li{
+  padding:25px;
+}
+.bage-home li:hover{
+  color: white;
+  background-color: hsl(222, 66%, 50%);
+}
+.bot {
+  margin-right: 100px;
+  font-size: 40px;
+  color: black;
+  border-radius: 5px;
+  float: left;      
+}
+.bot a {
+  margin-top: 20px;
+  color: black;
+}
+.top{
+  position:fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: blue;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.top a{
+  color: white;
+  font-size: 30pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* end fotter */
