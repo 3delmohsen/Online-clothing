@@ -1,1 +1,1 @@
-Online clothing store 2
+Online clothing
